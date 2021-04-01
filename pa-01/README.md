@@ -1,7 +1,7 @@
 # FALK PA-01
 
 Images
-![PA-01 built](/img/pa-01-overview.jpg)
+![PA-01 built](img/pa-01-overview.jpg)
 Format: ![Alt Text](url)
 
 ### Introduction
