@@ -1,5 +1,9 @@
 # FALK PA-01
 
+Images
+![PA-01 built](/img/pa-01-overview.jpg)
+Format: ![Alt Text](url)
+
 ### Introduction
 The PA-01 Modular Preamplifier is a set of designs created to allow DIY audio enthusiasts a way to build a preamplifier that suits their individual needs by picking from a set of predefined components and putting them together to create a complete system.
 
