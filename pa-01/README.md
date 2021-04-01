@@ -40,3 +40,24 @@ In order to build one of these systems, you’ll need to know how to order PCBs 
 This set of designs was created to be as approachable as possible. Only one component is surface-mount, the ESP32 (because it doesn’t come any other way) and it’s large enough that you can solder it with an iron. Unless you’re modifying things, you don’t need to know how to write code, debug or anything of the sort.
 
 Last of all, you need to be able to enjoy audio equipment!
+
+### Boards
+
+There are a number of boards to choose from and new boards on the way. The following is a summary of currently available and planned boards.
+
+#### Input
+* Balanced (3+1) XLR input board
+** Single-Ended to Balanced Daughter-board
+* Single ended (6) input board
+
+#### Volume
+* Stackable Volume Board (relay attenuator)
+
+#### Output
+Balanced Output Board (XLR + RCA)
+
+#### Control
+* Advanced Control Board
+* Screen board (OLED)
+* Button board (Rotary encoders)
+* Simple Control Board (WIP)
