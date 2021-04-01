@@ -5,7 +5,7 @@ This repo (and the linked ones) feature a set of open-source DIY audio projects.
 
 ## Devices
 
-### [PA-01 Modular Preamplifier](pa01/README.md)
+### [PA-01 Modular Preamplifier](pa-01/README.md)
 The PA-01 is designed as a fully-passive modular preamplifier. The result is a set of independent modules that can be used to build a preamplifier. You can also swap out parts for other off-the-shelf or DIY components from others, even going as far as to add buffers and more. It's designed around the ESP32 MCU which prrovides a full digital display, customized inputs (enable/disable/name) and WiFi support with a web-based UI.
 
 ### DP-01 Digital Player
