@@ -21,6 +21,8 @@ It’s recommended to use the built-in power supply. It’s a simple, low-cost p
 The Advanced Control board provides power for all other boards via a 5V power supply. This supply is switched off when the Advanced Control Board enters sleep mode (when the power button is pressed). This powers down unneccesary components and also unlatches the Mute Board, preventing audio from passing through the system when in standby. For more information, read the [Mute Board guide](../../misc/mute-board/).
 
 ### Building the board
+A full Bill Of Materials is included in the files section above, or a pre-created project at [Mouser (US) is also available](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2cf1408eac).
+
 The Advanced Control Board is the most complex board in the series. The actual build is not overly complex, but it’s best to test as you build. If you’re using the built-in power supply, start by populating the components used in that circuit first (the screw terminal, D1. D2, C1, C2, C3 and U1. Power on the board and use a multimeter to check you’re getting 5V from the regulator, U1. Remove the power and add C4, C5 and U2. Restore power and check you’re getting 3.3V from the regulator U2. Make sure you add the heatsinks to U1 and U2. Now continue populating the remaining components. The ESP32 is usually the next to add (you want to add it before you add too many more components). Use either a fine-tipped soldering iron with fine solder, or solder paste and a hot-air gun to add the device. Populate the remaining components.
 
 ### Loading the board’s firmware
