@@ -1,6 +1,6 @@
-![Advanced Control Board outline](img/pcb-outline.png)
-
 # Advanced Control Board (FALK PA-01)
+
+![Advanced Control Board outline](img/pcb-outline.png)
 
 The Advanced Control Board is arguably the most complex board in the build, but it is also the most powerful. It’s powered by the ESP32-WROOM-32 module from Espressif Systems - a very fast, very capable microcontroller that includes Wifi, Bluetooth and many advanced features not even used in this board. For our purposes, it controls the input and volume boards, draws the content from the screen, reads the controls and even runs a web server so you can interact with the control board using a web browser.
 
