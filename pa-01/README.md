@@ -57,7 +57,7 @@ There are a number of boards to choose from and new boards on the way. The follo
 Balanced Output Board (XLR + RCA)
 
 #### Control
-* [Advanced Control Board](boards/control/advanced-control-board/README.md)
+* [Advanced Control Board](boards/control/advanced-control-board/)
 * Screen board (OLED)
 * Button board (Rotary encoders)
 * Simple Control Board (WIP)
