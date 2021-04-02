@@ -35,7 +35,7 @@ Download the latest firmware and extract the `application.bin` and `firmware.bin
 You will need to flash the firmware to the Advanced Control Board before it will work. This document will guide you throug the process of flashing using a simple GUI tool and a USB-serial programmer. [esphome-flasher](https://github.com/esphome/esphome-flasher) is probably the easiest tool, so head to the releases page and download the correct version for your computer. If you have a Windows 10 machine, then most likely you will want the Windows x64 version:
 https://github.com/esphome/esphome-flasher/releases
 
-Next, connect the USB-UART programmer (one is included in the BOM for the Advanced Control Board, although you don’t need a specific one, any will do) to the Ground, RX and TX as marked on the board to the same marked pins on the USB/UART board, then power on the board and connect the UART adapter to a USB port on your PC. Finally, locate the `BOOT` and `RESET` buttons on the Advanced Control Board. Hold the `BOOT` button and press the `RESET` button. Once you've released the `RESET` button, release the `BOOT` button. This action puts the ESP32 MCU into programming mode, ready to have the firmware flashed.
+Next, connect the USB-UART programmer (one is included in the BOM for the Advanced Control Board, although you don’t need a specific one, any will do) to the __Ground__, __RX__ and __TX__ as marked on the board to the same marked pins on the USB/UART board, then power on the board and connect the UART adapter to a USB port on your PC. Finally, locate the `BOOT` and `RESET` buttons on the Advanced Control Board. Hold the `BOOT` button and press the `RESET` button. Once you've released the `RESET` button, release the `BOOT` button. This action puts the ESP32 MCU into programming mode, ready to have the firmware flashed.
 
 When you open esphome-flasher in Windows you’ll get a warning that it’s not trusted. This is expected, simply click “Run Anyway” to continue. You should get the following screen:
 
@@ -43,6 +43,6 @@ Select the correct serial port (it’s likely you’ll only have one, if not, tr
 
 Once the flash is complete, the Advanced Control Board will reboot, but it's not quite ready yet - we still need to load the firmware. Hold the `BOOT` button and click the `RESET` button again as before to put the board into programming mode.  Click 'Browse' again and locate the firmware.bin file and click “Flash ESP” again. Once both files are flashed, you can disconnect everything - the board is now complete. If you have a display board ready, connect the display board using an IDC cable and power up the control board. You should see “Input 1” and “20%” shown on the screen.
 
-If you’re having problems flashing, make sure the board is powered on, the USB UART adapter is plugged into the board and the PC and that the pins on the adapter are wired correctly to the pins on the board. Try swapping the *RX* and *TX* pins if it’s not working.
+If you’re having problems flashing, make sure the board is powered on, the USB UART adapter is plugged into the board and the PC and that the pins on the adapter are wired correctly to the pins on the board. Try swapping the __RX__ and __TX__ pins if it’s not working.
 
 For information getting started with using the Advanced Control Board, see the user manual.
