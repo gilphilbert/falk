@@ -14,5 +14,5 @@ The PA-01 is designed as a fully-passive modular preamplifier. The result is a s
 ### DP-01 Digital Player
 The DP-01 is a Raspberry Pi-based audio streamer. While it's (currently) based on MPD like many other projects, DP-01 is designed for high quality audio so it doesn't support features that may degrade audio quality (software volume control, etc.). The UI matches the other FALK projects and it supports a number of different sized LCD screens, including the 8.8" 1920x480 TFTs from Wisecoco to allow yout to create distinctive builds.
 
-### [Hypnic Power Manager](hypnic/README.md)<a name="hypnic"></a>
+### [Hypnic Power Manager](hypnic/)<a name="hypnic"></a>
 The Hypnic Power Manager is a power manager board for single board computers (including, but not limited to the Raspberry Pi) that's designed to provide power control (via a power switch), power state LED connections and enough power to allow the SBC to gracefully shutdown in the event of external power loss, to prevent corruption of the SD card.
