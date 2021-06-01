@@ -58,6 +58,7 @@ Balanced Output Board (XLR + RCA)
 
 #### Control
 * [Advanced Control Board](boards/control/advanced-control-board/)
+* [Volume Relay Board](boards/audio/relay-volume/)
 * Screen board (OLED)
 * Button board (Rotary encoders)
 * [Mute Board](boards/misc/mute/)
