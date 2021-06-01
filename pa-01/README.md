@@ -41,26 +41,18 @@ This set of designs was created to be as approachable as possible. Only one comp
 
 Last of all, you need to be able to enjoy audio equipment!
 
-### Boards
-
+## Boards
 There are a number of boards to choose from and new boards on the way. The following is a summary of currently available and planned boards.
-
-#### Input
-* Balanced (3+1) XLR input board
-** Single-Ended to Balanced Daughter-board
-* Single ended (6) input board
-
-#### Volume
-* Stackable Volume Board (relay attenuator)
-
-#### Output
-Balanced Output Board (XLR + RCA)
 
 #### Control
 * [Advanced Control Board](boards/control/advanced-control-board/)
-* [Volume Relay Board](boards/audio/relay-volume/)
 * Screen board (OLED)
 * Button board (Rotary encoders)
 * [Mute Board](boards/misc/mute/)
 * [Convenience Board](boards/misc/conveience/)
-* Simple Control Board (WIP)
+
+#### Audio
+* [Volume Relay Board](boards/audio/relay-volume/)
+* Balanced Output Board (XLR + RCA)
+* Balanced (3+1) XLR input board (Single-Ended to Balanced Daughter-board)
+* Single ended (6) input board
