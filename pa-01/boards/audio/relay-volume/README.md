@@ -26,7 +26,7 @@ You can find the full Bill Of Materials below, this board is very simple, just s
 ## Bill Of Materials
 | Part | Quantity | Symbol | Manufacturer | Distributor |
 |-|-|-|-|-|
-| G6A-274P-ST-US-DC5 | 8 | RLY1,RLY2,RLY3,RLY4,RLY5,RLY6,RLY7,RLY8 | OMRON | DigiKey, Mouser |
+| G6AK-274P-ST-US-DC5 | 8 | RLY1,RLY2,RLY3,RLY4,RLY5,RLY6,RLY7,RLY8 | OMRON | DigiKey, Mouser |
 | ULN2803A | 2 | Q1, Q2 | STMicroelectronics | DigiKey, Mouser |
 | MCP23017-E/SP | 1 | U4 | STMicroelectronics | DigiKey, Mouser |
 | 75869-131LF | 1 | CHAIN | Amphenol FCI | DigiKey, Mouser |
