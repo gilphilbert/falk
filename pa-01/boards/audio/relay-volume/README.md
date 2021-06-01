@@ -48,5 +48,6 @@ You can find the full Bill Of Materials below, this board is very simple, just s
 | RN60C2432FB14 | 2 | R7: HS, CS | Vishay / Dale | DigiKey, Mouser |
 | RN60D16R0FB14 | 2 | R8: HR, CR | Vishay / Dale | DigiKey, Mouser |
 | RN60D2492FB14 | 2 | R8: HS, CS | Vishay / Dale | DigiKey, Mouser |
+
 *NOTE*
 While it is possible to substitute the resistors above for other components, it is *strongly* recommended to use the above components as these will offer the best sonic quality. Always use matching, 1% tolerance, high quality resistors. Vishay Dale RN or CMF are the recommended types.
