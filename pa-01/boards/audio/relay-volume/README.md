@@ -1,4 +1,4 @@
-# Advanced Control Board (FALK PA-01)
+# Volume Relay Board (FALK PA-01)
 
 ![Volume Relay Board outline](img/pcb-outline.png)
 
