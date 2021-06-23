@@ -1,7 +1,7 @@
 # FALK Hypnic Power Manager
 ## Power management board for single board computers
 
-![Hypnic](img/hyPnic-v1-sm.jpg)
+![Hypnic](img/hypnic-v1-sm.jpg)
 Prototype board
 
 ### Introduction
