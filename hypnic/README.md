@@ -2,10 +2,12 @@
 ## Power management board for single board computers
 
 ![Hypnic](img/hypnic-v1-sm.jpg)
-Prototype board
+__Hypnic v1.1__
 
-### Introduction
+## Introduction
 While building the [DP-01](../dp-01/README.md) based on the Raspberry Pi I wanted to turn the Raspberry Pi into an audio "appliance". The problem is that, like most Single Board Computers (SBCs), the Raspberry Pi doesn't support a power button and once it's powered off, the only way to power it back on is to remove it's power source and add it again. On top of that, you can't simply remove power from it in fear of corrupting the SD card, so I needed a way to gracefully power down when power is removed. I also wanted to the flexibility to be able to use any SBC later, not tying the board to a specific SBC (like the Raspberry Pi) and I couldn't find a solution to this off the shelf that perfectly fit my needs, so I built one.
+
+## What Is It?
 
 The Hypnic board is designed to provide just enough power for a SBC to power down gracefully when power is lost. It's not device specific (it's not a Raspberry Pi HAT) and as such supports many SBCs, not just the Raspberry Pi.
 
@@ -24,7 +26,7 @@ A regulated power supply that matches the power requirement for your SBC, prefer
 
 ### Hardware
 If you're interested, these are the main devices on the board:
-* ATTiny 44 microcontroller (provides logic)
-* A pair of medium sized supercapacitors for power reserve
-* A 5V boost module (to guarantee 5V output to the SBC)
+* ATtiny44 microcontroller. The ATtiny44 is actually overkill, the code only consumes around 10% of it's flash and ~3% of it's RAM, but there's plenty of space for DIY'ers
+* A pair of medium sized (30-35F) supercapacitors for power reserve
+* A 5V boost module (to guarantee 5V output to the SBC as the supercapacitors drain)
 * Some discreet components
