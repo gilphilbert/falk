@@ -49,7 +49,7 @@ There are a number of boards to choose from and new boards on the way. The follo
 * Screen board (OLED)
 * Button board (Rotary encoders)
 * [Mute Board](boards/misc/mute/)
-* [Convenience Board](boards/misc/conveience/)
+* [Convenience Board](boards/misc/convenience/)
 
 #### Audio
 * [Volume Relay Board](boards/audio/relay-volume/)
