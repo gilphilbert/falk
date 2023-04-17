@@ -15,4 +15,4 @@ You can find the full Bill Of Materials included in this directory, this board i
 ![Schematic](img/schematic.png)
 
 ## PCB Layout
-![PCB Layout](img/pcb.svg)
+![PCB Layout](img/pcb.png)

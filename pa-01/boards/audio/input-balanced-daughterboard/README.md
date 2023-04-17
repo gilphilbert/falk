@@ -14,7 +14,7 @@ You can find the full Bill Of Materials below, this board is very simple, just s
 ![Schematic](img/schematic.png)
 
 ## PCB Layout
-![PCB Layout](img/pcb.svg)
+![PCB Layout](img/pcb.png)
 
 ## Bill Of Materials
 Use the BOM in this directory for components.
